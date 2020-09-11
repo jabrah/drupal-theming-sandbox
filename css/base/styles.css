@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--jhu-black);
+}
+
+/* *********************************************************************************
+ * TODO: Change px units to something else. Probably 'rem'
+ * ********************************************************************************* */
+
+a {
+  text-decoration: none;
+}
+
+/*
+ * Stickies the site footer to the bottom of the browser viewport, if content is
+ * too short, or below content, of overflowed
+ */
+.layout-container {
+  min-height: calc(100vh - var(--footer-height));
+}
+
+/* Content */
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+main > div,
+main > aside {
+  margin: 0 36px;
+}
+main > div {
+  flex-basis: 50%;
+}
+
+/* 
+ * This footer handles the auto-generated footer that holds the author and
+ * last modified date for any node that is configured to show this information
+ * This footer actually appears within the main "content" region
+ */
+footer.node__meta {
+  margin: 36px 0;
+  font-style: italic;
+  border-top: 1px solid var(--jhu-black);
+}
+
+.view-front-page-highlight-links .views-row {
+  display: flex;
+  justify-content: center;
+}

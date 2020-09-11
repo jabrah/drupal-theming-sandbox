@@ -1,0 +1,11 @@
+jhu-css:
+  version: 1.0
+  css:
+    base:
+      css/base/branding.css: {}
+      css/base/styles.css: {}
+    component:
+      css/components/banner.css: {}
+      css/components/footer.css: {}
+      css/components/need-more-info-menu.css: {}
+      css/components/top-menu.css: {}

@@ -1,0 +1,16 @@
+header .region-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: -20px 0 -35px 0;
+}
+
+.site-logo img {
+  width: 350px;
+}
+
+footer .site-logo-light {
+  width: 350px;
+  height: 144px;
+}

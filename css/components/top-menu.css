@@ -1,0 +1,15 @@
+.region-top-menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: var(--jhu-blue-heritage);
+}
+.region-top-menu a {
+  color: white;
+}
+.region-top-menu ul.menu {
+  display: flex;
+}
+.region-top-menu nav li.menu-item {
+  padding: 0 12px;
+}

@@ -1,0 +1,24 @@
+name: JHU Islandora theme
+type: theme
+description: JHU theme for their Islandora based data repository UI
+core: 8.x
+base theme: classy
+screenshot: screenshot.png
+logo: logo.png
+
+libraries:
+  - jhutheme/jhu-css
+
+regions:
+  top_menu: Top menu
+  header: Header
+  highlighted: Highlighted
+  content: Content
+  sidebar_first: Left sidebar
+  sidebar_second: Right sidebar
+  footer_first: Footer first
+  footer_second: Footer second
+  footer_third: Footer third
+  footer_fourth: Footer fourth
+  page_top: Page top
+  page_bottom: Page bottom

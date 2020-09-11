@@ -1,4 +1,4 @@
-This repository is meant to be used as a sandbox for freeform experimentation with Drupal theming.
+This repository is meant to be used as a sandbox for freeform experimentation with Drupal theming. It is definitely not production ready :)
 
 I have been using the Acquia Dev Desktop 2 (https://dev.acquia.com/downloads). To use the theme in this repository:
 
@@ -10,3 +10,5 @@ I have been using the Acquia Dev Desktop 2 (https://dev.acquia.com/downloads). T
   * Click the Appearance tab
   * Scroll down to "Unintalled Themes" section
   * Click "Install and set as default"
+
+When working with this theme in Drupal, I'd recommend doing the above and opening your root Drupal directory, so that you have access to Drupal's built in theme. Since this theme is based on the built in theme, _Classy_, it is helpful to be able to open _Classy_ templates in your IDE and/or copy them into this theme for easier customization.
